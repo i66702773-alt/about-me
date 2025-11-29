@@ -362,3 +362,8 @@ body {
 .Fronted {
   color: rgb(0, 162, 255);
 }
+.zer {
+  margin-left: 200px;
+  display: flex;
+  gap: 100px;
+}

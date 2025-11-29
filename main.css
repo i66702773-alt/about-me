@@ -121,13 +121,11 @@ body {
   height: 450px;
   margin-top: 100px;
   border-radius: 100px;
-  animation: image 3s linear;
+  animation: image 3s linear both;
 }
 @keyframes image {
   100% {
-    box-shadow: rgb(0, 162, 255) 0px 54px 55px, rgb(0, 162, 255) 0px -12px 30px,
-      rgb(0, 162, 255) 0px 4px 6px, rgb(0, 162, 255) 0px 12px 13px,
-      rgb(0, 162, 255) 0px -3px 5px;
+    box-shadow: 0 4px 30px 10px rgb(0, 162, 255), 0 10px 30px 0 rgb(0, 162, 255);
   }
 }
 .clas {
@@ -280,6 +278,7 @@ body {
   border: none;
   color: white;
   background-color: rgb(43, 43, 43);
+  margin-top: 50px;
 }
 
 .yuborish {
